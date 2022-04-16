@@ -11,3 +11,6 @@ var a = "Apple", b = "Boy", c = "Carrot"; //Assigning variables all in one state
 document.write(c.fontcolor("green")); //Displaying the value of the variable c and making it have a font color green
 var e = 5 + 5; // Assigning the var e to an expression
 document.write(e); // Displaying the value of the variable e
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+  }
