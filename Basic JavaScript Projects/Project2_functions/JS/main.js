@@ -8,3 +8,11 @@ function lets_concatenate() { // Same scenario here as the function above, the o
     dogs_name += " is Fydo."
     document.getElementById("Concatenate").innerHTML = dogs_name;
 }
+
+function Minus_These (x, y) {
+    return x - y;
+}
+
+var result = Minus_These(5, 4);
+document.write(result);
+
