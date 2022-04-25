@@ -1,0 +1,15 @@
+input[type=text] {
+    border: 5px solid grey;
+    border-radius: 7px;
+    margin: 10px auto;
+    width: 50%;
+    padding: 10px;
+}
+
+input[type=password] {
+    border: 5px solid grey;
+    border-radius: 7px;
+    margin: 10px auto;
+    width: 50%;
+    padding: 10px;
+}
