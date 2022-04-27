@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
+    </head>
+    <script>
+        $(document).ready(function() {
+            $("html").append( // Put inside the html once the document has loaded
+                "<body>\
+                    <div id='container'>\
+                        <div id='inner'>\
+                            <h1>Basic jQuery</h1>\
+                            <p id='green'>Paragraph 1</p>\
+                            <p id='blue'>Paragraph 2</p>\
+                            <p id='click'>Paragraph 3</p>\
+                        </div>\
+                    </div>\
+                </body>"
+
+            );
+            $("#green").css({"color":"green"}); // Changing a paragraph's color and hiding the h1 using jQuery syntax
+            $("#click").click(function() {
+                $("h1").hide();
+            });
+        });
+    </script>
+</html>

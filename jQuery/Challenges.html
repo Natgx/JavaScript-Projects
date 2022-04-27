@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ELEMENTS CHALLENGE</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <p>The head properties tag name is:</p>
+        <p id="tag_name"></p>
+        <p id="dissappear">Goodbye:(</p>
+        <script>
+            var tag = document.head.tagName;
+            document.getElementById("tag_name").innerHTML = tag;
+
+            // Event Setup using the Convenience Method
+            $("p").click(function() {
+                console.log("You have clicked on a paragraph to show it here on the console of your browser!")
+            });
+            $("#dissappear").hide();
+        </script>
+    </body>
+</html>
