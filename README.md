@@ -1,9 +1,9 @@
 # JavaScript-Projects
 This is my repository that will contain all my projects in my JavaScript Course on my boot camp in Tech Academy.
 ##Projects
-*Tic-Tac-Toe Game
-*Pizza Menu
-*Calculator
+* Tic-Tac-Toe Game
+* Pizza Menu
+* Calculator
 ### Tic-Tac-Toe Game
 This website shows the basic Tic-Tac-Toe Game where you can play with an AI. This was made using the programming languages CSS and JavaScript along with the use of HTML.
 ### Pizza Menu
